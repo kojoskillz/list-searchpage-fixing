@@ -1,13 +1,18 @@
 @media (max-width: 1280px) {
     .child{
        display: grid;
-       grid-template-columns: 1fr;
-       width: 40%;
+       width: 100%;
+       place-content: center;
+       grid-template-columns: auto auto auto; 
+       margin: auto;
     }
     #google-map-iframe{
-       width: 56%;
+       width: 97%;
        margin-left: -23rem;
+       margin: auto;
+       
     }
+ 
  }
  
  @media (max-width: 1024px) {
