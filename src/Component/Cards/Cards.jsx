@@ -48,6 +48,7 @@ const Cards = () => {
       {/* Displaying the Google Map iframe */}
       <div className="md:col-span-2 map">
         <iframe
+        
           id="google-map-iframe"
           title="Google Map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1256869.047065841!2d3.2416269152149474!3d9.085535223625863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104d0d7d64e2bb19%3A0x35d7bd499308ad5!2sNigeria!5e0!3m2!1sen!2sng!4v1647230722356"
