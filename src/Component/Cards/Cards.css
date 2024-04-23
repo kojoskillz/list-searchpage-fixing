@@ -40,11 +40,21 @@
       grid-template-columns: 1fr 1fr;
       place-content: center;
       margin: auto;
-     }
+     } 
      #google-map-iframe{
-     display: none;
+     display:block;
+     width: 23rem;
+     height: 3rem;
+     position: absolute;
+     margin: auto;
+     
    }
-   .parentX{
+   .map{
+      display: grid;
+      position: absolute;
+      margin-top: 95rem;
+      
+ 
 
    }
      }
